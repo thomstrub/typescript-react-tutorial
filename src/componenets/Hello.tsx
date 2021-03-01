@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Hello.css';
 
 export interface Props {
     name: string;
@@ -19,7 +20,7 @@ function Hello({name, enthusiasmLevel = 1}: Props) {
     )
 }
 
-export default function Hello;
+export default Hello;
 
 // helpers
 
