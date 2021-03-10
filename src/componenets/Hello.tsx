@@ -4,6 +4,8 @@ import './Hello.css';
 export interface Props {
     name: string;
     enthusiasmLevel?: number;
+    onIncrement?: () => void;
+    onDecrement?: () => void;
 }
 
 function Hello({name, enthusiasmLevel = 1}: Props) {
